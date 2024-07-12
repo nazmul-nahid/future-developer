@@ -1,0 +1,225 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+main{
+   
+}
+
+footer{
+    width: 1176px;
+    height: 100px;
+}
+
+/* Banner Style here */
+.banner-section{
+    width: 100%;
+    height: 652px;
+    border: 1px 0px;
+    text-align: center;
+    background-image: url('../assets/Hero-bg.png');
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+    margin-bottom: 131px;
+    background-color: rgb(242, 248, 247);
+    
+
+}
+.banner-container{
+    width: 998px;
+    height: 582px;
+    display: block;
+    justify-content: center;
+    
+    
+}
+
+.banner-title{
+    width: 998px;
+    height: 310px;
+    margin-bottom: 24px;
+    color: #0D1321;
+    font-weight: 800;
+    
+}
+.banner-description{
+    color: rgb(245, 237, 237);
+    margin-bottom: 32px;
+}
+
+header button{
+    width: 208px;
+    height: 66px;
+    border: 21px 24px;
+    border-radius: 8px;
+    background-color: #0D1321;
+    
+
+}
+
+header button a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.common-section{
+    
+    margin: 74px 152px 88px 148px;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    height: 1395px;
+    width: 1140px;
+    
+}
+.sub-section{
+    width: 946px;
+    height: 1235px;
+    background-color:  ;
+    margin-top: 80px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.sub-section .only-title{
+    
+    text-align: center;
+    margin-right: 47px;
+    margin-bottom: 48px;
+    margin-left: 47px;
+    
+
+}
+.common-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+.common-description{
+    font-size: 16px;
+    font-weight: 300;
+}
+.again-explain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-section > .explain{
+    width:946px ;
+    height: 336px;
+    border: 32px 97px;
+    border-radius: 15px;
+}
+
+.sub-section > .explain > .again-explain{
+    height: 240px;
+    width: 850px;
+    border: 48px;
+
+}
+
+.sub-section > .explain > .again-explain > .div-1{
+    width: 447px;
+    height: 220px;
+    border-top: 10px;
+    border-bottom: 10px;
+
+}
+
+/* .sub-section > .explain > .again-explain > .div-1 > .details{
+    width: 447px;
+    height: 140px;
+    border: 10px 100px 32pc 0px; */
+
+.sub-section > .explain > .again-explain > .div-1 > .learn-more{
+    height: 48px;
+    height: 150px;
+    
+    padding: 12px 20px;
+}
+
+
+.sub-section > .explain > .again-explain > .div-2{
+    height: 240px;
+    height: 247.17px;
+}
+
+/* My  Inspiration Section Style */
+
+
+.my-inspiration{
+    height: 777px;
+    width: 1140px;
+    align-content: center;
+}
+
+/* .my-inspiration > .sub-section{
+    height: 614px;
+    width: 1140px;
+    border-top: 48px;
+    border-radius: 16px;
+    background-color: white;
+} */
+
+.video{
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.skill{
+    display: flex;
+    gap: 24px;
+}
+.support{
+    height: 314px;
+    height: 1140px;
+    align-content: center ;
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: none;
+    
+}
+
+
+.support > .only-title > h2,p,{
+    text-align: center;
+    
+}
+
+.footer-section{
+    margin: 74px 152px 88px 148px;
+    border-right: 150px;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.footer-items{
+    height: 36px;
+    width: 1140px;
+}
+
+
