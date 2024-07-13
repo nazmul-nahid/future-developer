@@ -17,6 +17,9 @@ body{
     width: 1440px;
     height: 652px;
     background-image: url('../assets/Hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
     
     
     
@@ -24,7 +27,7 @@ body{
      
 }
 .banner-container{
-    position: absolute;
+    
     width: 998px;
     height: 582px;
     left: 221px;
@@ -34,6 +37,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
+    margin: 0 auto;
     
     
     
