@@ -214,7 +214,7 @@ padding: 12px 20px 12px 20px;
     height: 777px;
     margin: 0 auto;
     
-    border: 3px solid red;
+    
 
 
 }
@@ -247,7 +247,7 @@ padding: 12px 20px 12px 20px;
     display: flex;
     flex-direction: column;
 
-    border: 1px solid green;
+    
 }
 
 .target-title-container{
@@ -261,7 +261,7 @@ width: 1140px;
 height: 305px;
 display: flex;
 
-border: 3px solid blueviolet;
+
 
 }
 
@@ -270,7 +270,7 @@ border: 3px solid blueviolet;
     
     width: 355px;
     height: 300px;
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -321,6 +321,64 @@ border: 3px solid blueviolet;
     border-radius: 5px;
 
 }
+
+/* Section Support Styles */
+
+.section-support{
+    width: 1120px;
+    height: 314px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 100px; */
+    border-radius: 10px;
+    padding: 64px 48px 64px 48px;
+    
+    margin: 50px auto;
+}
+
+.support{
+    width: 1044px;
+    height: 186px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.support-container h2{
+    align-items: center;
+    padding-left: 100px;
+
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.support-container p{
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.form input[type="text"]{
+    width: 548px;
+    height: 57px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+.form input[type="submit"]{
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
 
 
 
